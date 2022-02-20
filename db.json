@@ -1,0 +1,411 @@
+{
+  "items": [
+    {
+      "id": "dd8c81e2-394f-423f-a393-f668794c7654",
+      "imageUrl": "https://picsum.photos/300/300",
+      "name": "fg332 samsung (phone)",
+      "count": 202,
+      "size": {
+        "width": 374,
+        "height": 45
+      },
+      "weight": 124,
+      "price": 36,
+      "type": "notebook",
+      "brand": "samsung"
+    },
+    {
+      "id": "8ff04f8a-5f63-48d4-a09a-4fad8062b166",
+      "imageUrl": "https://picsum.photos/300/300",
+      "name": "f450 samsung (phone)",
+      "count": 15,
+      "size": {
+        "width": 24,
+        "height": 77
+      },
+      "weight": 135,
+      "price": 61,
+      "type": "phone",
+      "brand": "samsung"
+    },
+    {
+      "id": "6a54dd12-5ded-451d-88d7-337e6152dc7f",
+      "imageUrl": "https://picsum.photos/300/300",
+      "name": "b440 lg (tv)",
+      "count": 20,
+      "size": {
+        "width": 34,
+        "height": 24
+      },
+      "weight": 110,
+      "price": 31,
+      "type": "tv",
+      "brand": "lg"
+    },
+    {
+      "id": "5708afbf-1db1-4247-b289-75be1b2ff5f8",
+      "imageUrl": "https://picsum.photos/300/300",
+      "name": "T590 apple (phone)",
+      "count": 22,
+      "size": {
+        "width": 22,
+        "height": 22
+      },
+      "weight": 132,
+      "price": 32,
+      "type": "phone",
+      "brand": "apple"
+    },
+    {
+      "id": "570sc,dcodocdpsodkocd8afbf-1db1-4247-b289-75be1b2ff5f8",
+      "imageUrl": "https://picsum.photos/300/300",
+      "name": "df500 samsung (tv)",
+      "count": 8,
+      "size": {
+        "width": 51,
+        "height": 43
+      },
+      "weight": 34,
+      "price": 84,
+      "type": "tv",
+      "brand": "samsung"
+    },
+    {
+      "id": "5708afbf-1db1-4cd,cdl,cs,ldl;c,247-b289-75be1b2ff5f8",
+      "imageUrl": "https://picsum.photos/300/300",
+      "name": "e520 lg (tv)",
+      "count": 4,
+      "size": {
+        "width": 45,
+        "height": 22
+      },
+      "weight": 324,
+      "price": 43,
+      "type": "tv",
+      "brand": "lg"
+    },
+    {
+      "id": "5708afbf-1db1-4247-b289-7cdmkcd5be1b2ff5f8",
+      "imageUrl": "https://picsum.photos/300/300",
+      "name": "rt6400 apple (phone)",
+      "count": 16,
+      "size": {
+        "width": 54,
+        "height": 46
+      },
+      "weight": 35,
+      "price": 41,
+      "type": "phone",
+      "brand": "apple"
+    },
+    {
+      "id": "f6af37f3-e266-4205-be7a-c3badc7f3301",
+      "imageUrl": "https://picsum.photos/300/300",
+      "name": "nw311 samsung (phone)",
+      "count": 2,
+      "size": {
+        "width": 123,
+        "height": 234
+      },
+      "weight": 153,
+      "price": 1000,
+      "type": "phone",
+      "brand": "samsung"
+    },
+    {
+      "id": "5143786d-d76a-4b7f-800b-d5bf22bee587",
+      "imageUrl": "https://picsum.photos/300/300",
+      "name": "a450 lg (tv)",
+      "count": 1,
+      "size": {
+        "width": 23,
+        "height": 34
+      },
+      "weight": 43,
+      "price": 400,
+      "type": "tv",
+      "brand": "lg"
+    },
+    {
+      "id": "4ca698f7-a418-4491-91bd-f71ae02d49c8",
+      "imageUrl": "https://picsum.photos/300/300",
+      "name": "e7600 lg (phone)",
+      "count": 5,
+      "size": {
+        "width": 0,
+        "height": 0
+      },
+      "weight": 0,
+      "price": 50,
+      "type": "phone",
+      "brand": "lg"
+    },
+    {
+      "id": "cb89570b-2b68-495d-be84-6c82e0217e63",
+      "imageUrl": "https://picsum.photos/300/300",
+      "name": "Pro mackbook (notebook)",
+      "count": 2,
+      "size": {
+        "width": 340,
+        "height": 22
+      },
+      "weight": 600,
+      "price": 1200,
+      "type": "notebook",
+      "brand": "apple"
+    }
+  ],
+  "comments": [
+    {
+      "id": "d1abc361-414c-4745-a289-76903bb0ff87",
+      "productId": "570sc,dcodocdpsodkocd8afbf-1db1-4247-b289-75be1b2ff5f8",
+      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing ",
+      "date": "03.02.2022"
+    },
+    {
+      "id": "015c76c2-fc9a-4ae0-aa3b-0a0f57a295f5",
+      "productId": "570sc,dcodocdpsodkocd8afbf-1db1-4247-b289-75be1b2ff5f8",
+      "description": " It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.",
+      "date": "03.02.2022"
+    },
+    {
+      "id": "bf411ea3-f5c8-4467-84fe-62d7e17c9ad4",
+      "productId": "570sc,dcodocdpsodkocd8afbf-1db1-4247-b289-75be1b2ff5f8",
+      "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+      "date": "03.02.2022"
+    },
+    {
+      "id": "2b77db96-fbf3-419a-9c52-765385a5b4b2",
+      "productId": "5708afbf-1db1-4247-b289-75be1b2ff5f8",
+      "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+      "date": "03.02.2022"
+    },
+    {
+      "id": "c712132b-0bd9-487c-9db5-7252d64368d9",
+      "productId": "5708afbf-1db1-4247-b289-75be1b2ff5f8",
+      "description": "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\n\nWhy do we use it?\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\n\n",
+      "date": "03.02.2022"
+    },
+    {
+      "id": "b64bf01d-1192-43c9-a1b2-f8c82a17ef91",
+      "productId": "5708afbf-1db1-4247-b289-7cdmkcd5be1b2ff5f8",
+      "description": "It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\n\nWhy do we use it?\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\n\n",
+      "date": "03.02.2022"
+    },
+    {
+      "id": "d888d174-d715-4c3e-a13c-c49e81262e64",
+      "productId": "5708afbf-1db1-4247-b289-7cdmkcd5be1b2ff5f8",
+      "description": "All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "date": "03.02.2022"
+    },
+    {
+      "id": "75295a11-1946-4ddf-ad8f-b4fbd91eedaa",
+      "productId": "5708afbf-1db1-4247-b289-7cdmkcd5be1b2ff5f8",
+      "description": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+      "date": "03.02.2022"
+    },
+    {
+      "id": "4bc8f69c-8e65-4c63-adc0-9e2abb6de599",
+      "productId": "5708afbf-1db1-4cd,cdl,cs,ldl;c,247-b289-75be1b2ff5f8",
+      "description": "Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.",
+      "date": "03.02.2022"
+    },
+    {
+      "id": "6cc2b65e-b81e-4cf7-83a3-81a7f4c0aa67",
+      "productId": "5708afbf-1db1-4cd,cdl,cs,ldl;c,247-b289-75be1b2ff5f8",
+      "description": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+      "date": "03.02.2022"
+    },
+    {
+      "id": "30861033-9e62-45da-9835-d35c7b05dac9",
+      "productId": "5708afbf-1db1-4cd,cdl,cs,ldl;c,247-b289-75be1b2ff5f8",
+      "description": "Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.",
+      "date": "03.02.2022"
+    },
+    {
+      "id": "acba957f-f451-4778-8066-5bd0dee6105c",
+      "productId": "6a54dd12-5ded-451d-88d7-337e6152dc7f",
+      "description": "Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.",
+      "date": "03.02.2022"
+    },
+    {
+      "id": "76147499-7392-4625-90fa-958ad29f8f05",
+      "productId": "6a54dd12-5ded-451d-88d7-337e6152dc7f",
+      "description": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+      "date": "03.02.2022"
+    },
+    {
+      "id": "18445938-bb6c-4d13-8735-0f39da39a4a5",
+      "productId": "6a54dd12-5ded-451d-88d7-337e6152dc7f",
+      "description": "If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "date": "03.02.2022"
+    },
+    {
+      "id": "ca9b8efe-b9af-4720-b72e-c0f1b7a08bb6",
+      "productId": "8ff04f8a-5f63-48d4-a09a-4fad8062b166",
+      "description": "If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "date": "03.02.2022"
+    },
+    {
+      "id": "fbc77d6b-3d3a-4bab-926b-c5a11e6aeda0",
+      "productId": "8ff04f8a-5f63-48d4-a09a-4fad8062b166",
+      "description": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.",
+      "date": "03.02.2022"
+    },
+    {
+      "id": "cda0ca5f-cc03-4de6-8eae-818d5aa2de39",
+      "productId": "8ff04f8a-5f63-48d4-a09a-4fad8062b166",
+      "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.",
+      "date": "03.02.2022"
+    },
+    {
+      "id": "b6fa9039-ebac-4d62-9749-9becd8439b14",
+      "productId": "dd8c81e2-394f-423f-a393-f668794c7654",
+      "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.",
+      "date": "03.02.2022"
+    },
+    {
+      "id": "6cac4383-de36-43fd-85c7-64838db17233",
+      "productId": "dd8c81e2-394f-423f-a393-f668794c7654",
+      "description": "The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham",
+      "date": "03.02.2022"
+    },
+    {
+      "id": "ad72c972-e507-4880-a692-8d679d285df1",
+      "productId": "5708afbf-1db1-4247-b289-75be1b2ff5f8",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+      "date": "03.02.2022"
+    },
+    {
+      "id": "584de66c-7b20-4e0d-a86e-b1c77374329b",
+      "productId": "5708afbf-1db1-4247-b289-75be1b2ff5f8",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+      "date": "03.02.2022"
+    },
+    {
+      "id": "779e1f41-3d82-41e0-bc81-28d4012b5afe",
+      "productId": "5708afbf-1db1-4247-b289-7cdmkcd5be1b2ff5f8",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+      "date": "03.02.2022"
+    },
+    {
+      "id": "a038c128-5e39-4f6d-92a5-da7ef2853d85",
+      "productId": "dd8c81e2-394f-423f-a393-f668794c7654",
+      "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).",
+      "date": "03.02.2022"
+    },
+    {
+      "id": "2ad32430-cca0-4384-ba8f-127202e34327",
+      "productId": "78623f37-41ec-4721-978a-98804ad230c3",
+      "description": "hghgh",
+      "date": "13.02.2022"
+    },
+    {
+      "id": "d6fe8177-53f9-4b9b-adf8-f3e26bb4454f",
+      "productId": "4ca698f7-a418-4491-91bd-f71ae02d49c8",
+      "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+      "date": "15.02.2022"
+    },
+    {
+      "id": "ab75033c-f7dd-4c45-8948-492a9538a5f0",
+      "productId": "5143786d-d76a-4b7f-800b-d5bf22bee587",
+      "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+      "date": "15.02.2022"
+    },
+    {
+      "id": "60753be6-94f9-490d-800d-826f66aa12c5",
+      "productId": "f6af37f3-e266-4205-be7a-c3badc7f3301",
+      "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.",
+      "date": "15.02.2022"
+    },
+    {
+      "id": "a13efa34-3601-45d9-9bc8-b272572f3277",
+      "productId": "f6af37f3-e266-4205-be7a-c3badc7f3301",
+      "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.",
+      "date": "15.02.2022"
+    },
+    {
+      "id": "2f8921df-57e3-462d-818e-b1cef8f99bc1",
+      "productId": "4ca698f7-a418-4491-91bd-f71ae02d49c8",
+      "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.",
+      "date": "15.02.2022"
+    },
+    {
+      "id": "4f5d0535-9c93-43a5-b3eb-288a4665423f",
+      "productId": "5143786d-d76a-4b7f-800b-d5bf22bee587",
+      "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.",
+      "date": "15.02.2022"
+    },
+    {
+      "id": "017bc583-494b-47ee-8b83-f07e18d75f7d",
+      "productId": "cb89570b-2b68-495d-be84-6c82e0217e63",
+      "description": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.",
+      "date": "15.02.2022"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "userName": "Igor",
+      "email": "voroshilovIgor@gmail.com",
+      "userRole": "admin"
+    },
+    {
+      "id": 2,
+      "userName": "Dan",
+      "email": "heppyhomo@gmail.com",
+      "userRole": "user"
+    }
+  ],
+  "brands": [
+    {
+      "id": "8e9d8247-10dc-45b7-900f-92484e1b08b5",
+      "name": "samsung"
+    },
+    {
+      "id": "535a05d1-626f-4996-bda2-e1809012810e",
+      "name": "apple"
+    },
+    {
+      "id": "ab02f5ef-6c43-4ff5-9b7f-4549d0c68565",
+      "name": "lg"
+    }
+  ],
+  "types": [
+    {
+      "id": "933ee24d-9269-423a-83d0-6d46d9c0ed32",
+      "name": "notebook"
+    },
+    {
+      "id": "a5ecdd35-185b-42ca-85e4-799c0c706471",
+      "name": "tv"
+    },
+    {
+      "id": "0b204d6a-23c1-4a78-9491-f41d7d09c88c",
+      "name": "phone"
+    }
+  ],
+  "basket": [
+    {
+      "id": "5143786d-d76a-4b7f-800b-d5bf22bee587",
+      "userBasketId": 1,
+      "name": "a450 lg (tv)",
+      "imageUrl": "https://picsum.photos/300/300",
+      "price": 400
+    },
+    {
+      "id": "4ca698f7-a418-4491-91bd-f71ae02d49c8",
+      "userBasketId": 1,
+      "name": "e7600 lg (phone)",
+      "imageUrl": "https://picsum.photos/300/300",
+      "price": 50
+    },
+    {
+      "id": "f6af37f3-e266-4205-be7a-c3badc7f3301",
+      "userBasketId": 1,
+      "name": "nw311 samsung (phone)",
+      "imageUrl": "https://picsum.photos/300/300",
+      "price": 1000
+    }
+  ]
+}
