@@ -42,7 +42,7 @@ const ItemCard: React.FC<OwnType> = ({ item, isAdmin }) => {
   };
 
   const moveToItem = (): void => {
-    // higth in local store
+    //sessionStorage.setItem('hight', JSON.stringify(window.pageYOffset)); //!
     navigate(`device/${item.id}`);
   };
 

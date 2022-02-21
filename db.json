@@ -385,27 +385,5 @@
       "name": "phone"
     }
   ],
-  "basket": [
-    {
-      "id": "5143786d-d76a-4b7f-800b-d5bf22bee587",
-      "userBasketId": 1,
-      "name": "a450 lg (tv)",
-      "imageUrl": "https://picsum.photos/300/300",
-      "price": 400
-    },
-    {
-      "id": "4ca698f7-a418-4491-91bd-f71ae02d49c8",
-      "userBasketId": 1,
-      "name": "e7600 lg (phone)",
-      "imageUrl": "https://picsum.photos/300/300",
-      "price": 50
-    },
-    {
-      "id": "f6af37f3-e266-4205-be7a-c3badc7f3301",
-      "userBasketId": 1,
-      "name": "nw311 samsung (phone)",
-      "imageUrl": "https://picsum.photos/300/300",
-      "price": 1000
-    }
-  ]
+  "basket": []
 }

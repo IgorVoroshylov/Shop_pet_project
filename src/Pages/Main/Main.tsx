@@ -1,5 +1,5 @@
 import { observer } from 'mobx-react';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useLayoutEffect } from 'react';
 import { useFela } from 'react-fela';
 import { Preloader } from '../../components';
 import useStore from '../../hooks/useStore';
@@ -20,31 +20,35 @@ const Main: React.FC = () => {
     searchBrand,
     getDevices,
   } = useStore('DeviceState');
-  const [scrollY, setScrollY] = useState(0);
 
-  function logit() {
-    setScrollY(window.pageYOffset);
-  }
+  // function logit() {
+  //   console.log(window.pageYOffset);
+  // }
 
-  const scrollTop = () => {
-    window.scrollTo({ top: 200, left: 0, behavior: 'smooth' });
+  const scroll = (w: any) => {
+    window.scrollTo(0, w);
+    //window.scrollTo({ top: 400, left: 0, behavior: 'smooth' });
   };
 
-  console.log(scrollY);
-
-  useEffect(() => {
-    scrollTop();
-    window.addEventListener('scroll', logit);
-
+  useLayoutEffect(() => {
     return () => {
-      //sessionStorage.setItem('hight', scrollY);
-      window.removeEventListener('scroll', logit);
+      sessionStorage.setItem('hight', JSON.stringify(window.pageYOffset));
     };
   }, []);
 
   useEffect(() => {
+    const w = sessionStorage.getItem('hight');
+    scroll(w);
+
+    //window.addEventListener('scroll', logit);
+    //return () => {
+    //window.removeEventListener('scroll', logit);
+    //};
+  });
+
+  useEffect(() => {
     getDevices(searchType, searchBrand, sortType, query);
-  }, [searchType, searchBrand, sortType, getDevices, query]);
+  }, [searchType, searchBrand, sortType, getDevices, query]); //!
 
   return (
     <div>
