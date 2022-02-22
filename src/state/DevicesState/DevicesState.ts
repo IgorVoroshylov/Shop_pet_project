@@ -1,4 +1,4 @@
-import { action, makeObservable, observable } from 'mobx';
+import { action, makeObservable, observable, computed } from 'mobx';
 
 export default class DevicesState {
   goodsList: Array<GoodsItemType> = [];

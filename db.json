@@ -385,5 +385,20 @@
       "name": "phone"
     }
   ],
-  "basket": []
+  "basket": [
+    {
+      "id": "5143786d-d76a-4b7f-800b-d5bf22bee587",
+      "userBasketId": 1,
+      "name": "a450 lg (tv)",
+      "imageUrl": "https://picsum.photos/300/300",
+      "price": 400
+    },
+    {
+      "id": "5708afbf-1db1-4247-b289-75be1b2ff5f8",
+      "userBasketId": 1,
+      "name": "T590 apple (phone)",
+      "imageUrl": "https://picsum.photos/300/300",
+      "price": 32
+    }
+  ]
 }

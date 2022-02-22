@@ -52,3 +52,27 @@ export const ResetButton = (theme: ThemeType) => ({
     color: theme.colorFocus,
   },
 });
+
+export const GoToTopButton = (theme: ThemeType) => ({
+  backgroundColor: 'grey lighten-4',
+  transition: 'all 0.3s ease',
+  borderRadius: '50%',
+  position: 'fixed',
+  bottom: '40px',
+  padding: '5px',
+  right: '30px',
+  ':hover': {
+    backgroundColor: theme.backgroundColorHover,
+    color: 'white',
+  },
+  ':focus': {
+    backgroundColor: '#f5f5f5',
+    color: theme.colorFocus,
+  },
+});
+
+export const TopSvgSizeRule = () => ({
+  width: '25px',
+  height: '25px',
+  verticalAlign: 'middle',
+});

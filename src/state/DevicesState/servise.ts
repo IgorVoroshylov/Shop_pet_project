@@ -78,6 +78,15 @@ class DeviceStateService extends DevicesState {
       return false;
     }
   };
+
+  // get GetItemsList() {
+  //   return this.getDevices(
+  //     this.searchType,
+  //     this.searchBrand,
+  //     this.sortType,
+  //     this.query,
+  //   );
+  // }
 }
 
 export default new DeviceStateService();
