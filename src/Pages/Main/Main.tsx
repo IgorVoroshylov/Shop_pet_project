@@ -37,16 +37,6 @@ const Main: React.FC = () => {
   }, []);
 
   useEffect(() => {
-    const w = sessionStorage.getItem('hight');
-    scroll(w);
-
-    //window.addEventListener('scroll', logit);
-    //return () => {
-    //window.removeEventListener('scroll', logit);
-    //};
-  });
-
-  useEffect(() => {
     getDevices(searchType, searchBrand, sortType, query);
   }, [searchType, searchBrand, sortType, getDevices, query]); //!
 
@@ -72,3 +62,13 @@ const Main: React.FC = () => {
 };
 
 export default observer(Main);
+
+// useEffect(() => {
+//   const w = sessionStorage.getItem('hight');
+//   scroll(w);
+
+//   //window.addEventListener('scroll', logit);
+//   //return () => {
+//   //window.removeEventListener('scroll', logit);
+//   //};
+// });
