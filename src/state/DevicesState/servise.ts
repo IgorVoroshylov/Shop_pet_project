@@ -1,5 +1,6 @@
 import DevicesState from './DevicesState';
 import axios, { AxiosError } from 'axios';
+import { reaction } from 'mobx';
 
 axios.defaults.baseURL = 'http://localhost:3500';
 
@@ -79,14 +80,18 @@ class DeviceStateService extends DevicesState {
     }
   };
 
-  // get GetItemsList() {
-  //   return this.getDevices(
-  //     this.searchType,
-  //     this.searchBrand,
-  //     this.sortType,
-  //     this.query,
-  //   );
-  // }
+  GetItemsList = reaction(
+    () => this.sortType || this.searchBrand || this.searchType || this.query,
+    () => {
+      this.getDevices(
+        this.searchType,
+        this.searchBrand,
+        this.sortType,
+        this.query,
+      );
+    },
+    { fireImmediately: true },
+  );
 }
 
 export default new DeviceStateService();

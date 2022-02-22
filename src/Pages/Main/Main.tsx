@@ -56,7 +56,7 @@ const Main: React.FC = () => {
   });
 
   useEffect(() => {
-    getDevices(searchType, searchBrand, sortType, query);
+    //getDevices(searchType, searchBrand, sortType, query);
   }, [searchType, searchBrand, sortType, getDevices, query]);
 
   return (
