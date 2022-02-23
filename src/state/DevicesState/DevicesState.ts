@@ -8,7 +8,7 @@ export default class DevicesState {
   error = '';
 
   // сортировка по цене и имени, и поиск по букве
-  sortType = 'id';
+  sortValue = 'id';
 
   query = '';
 
@@ -23,7 +23,7 @@ export default class DevicesState {
       error: observable,
 
       // сортировка по цене и имени, и поиск по букве
-      sortType: observable,
+      sortValue: observable,
       query: observable,
 
       // сортировка по типу техники и бренду
@@ -61,7 +61,7 @@ export default class DevicesState {
   // сортировка по цене и имени, и поиск по букве
   setSortValue = (value: string) => {
     sessionStorage.setItem('sortValue', value);
-    this.sortType = value;
+    this.sortValue = value;
   };
 
   setQuery = (query: string) => {

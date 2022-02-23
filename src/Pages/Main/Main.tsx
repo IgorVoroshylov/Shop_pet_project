@@ -20,7 +20,7 @@ const Main: React.FC = () => {
   const {
     goodsList,
     isLoading,
-    sortType,
+    sortValue,
     query,
     searchType,
     searchBrand,
@@ -56,8 +56,8 @@ const Main: React.FC = () => {
   });
 
   useEffect(() => {
-    getDevices(searchType, searchBrand, sortType, query); //! leave getDevices() without params, to start once, after loading
-  }, [searchType, searchBrand, sortType, getDevices, query]);
+    getDevices(searchType, searchBrand, sortValue, query); //! leave getDevices() without params, to start once, after loading
+  }, [searchType, searchBrand, sortValue, getDevices, query]);
 
   return (
     <div className={css()}>
