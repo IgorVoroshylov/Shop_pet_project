@@ -14,7 +14,7 @@ class DeviceStateService extends DevicesState {
     let searchString = `/items?name_like=^${query}&_sort=${sortType}&_order=ASC`;
 
     if (type && brand === '') {
-      searchString = `/items?name_like=^${query}&type=${type}&_sort=${sortType}&_order=ASC`;
+      searchString = `/items?name_like=^${query}&type=${type}&_sort=${sortType}&_order=ASC`; //! make this string shorter, +=
     } else if (type === '' && brand) {
       searchString = `/items?name_like=^${query}&brand=${brand}&_sort=${sortType}&_order=ASC`;
     } else if (type && brand) {
@@ -90,7 +90,7 @@ class DeviceStateService extends DevicesState {
         this.query,
       );
     },
-    { fireImmediately: true },
+    { fireImmediately: true }, //! remove this param, because we call getDevices without params, after maunting in main
   );
 }
 
