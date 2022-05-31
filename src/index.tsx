@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 import { Provider } from 'mobx-react';
 import STORES from './state/registration';
 
@@ -12,5 +11,3 @@ ReactDOM.render(
   </Provider>,
   document.getElementById('root'),
 );
-
-reportWebVitals();

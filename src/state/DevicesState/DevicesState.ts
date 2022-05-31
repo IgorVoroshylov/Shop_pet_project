@@ -12,6 +12,8 @@ export default class DevicesState {
 
   query = '';
 
+  goToTopFlag = true; // для того чтоб при изменении параметров поиска, список не спускался вниз, а оставался наверху
+
   searchType = '';
 
   searchBrand = '';
@@ -21,6 +23,7 @@ export default class DevicesState {
       goodsList: observable,
       isLoading: observable,
       error: observable,
+      goToTopFlag: observable,
 
       // сортировка по цене и имени, и поиск по букве
       sortValue: observable,
@@ -33,6 +36,7 @@ export default class DevicesState {
       setGoodsList: action,
       setIsLoading: action,
       setError: action,
+      setGoTopFlag: action,
 
       removeItem: action,
       setSortValue: action,
@@ -54,6 +58,10 @@ export default class DevicesState {
     this.error = error;
   };
 
+  setGoTopFlag = (flag: boolean) => {
+    this.goToTopFlag = flag;
+  };
+
   removeItem = (id: string) => {
     this.goodsList = this.goodsList.filter((item) => item.id !== id);
   };
@@ -61,21 +69,25 @@ export default class DevicesState {
   // сортировка по цене и имени, и поиск по букве
   setSortValue = (value: string) => {
     sessionStorage.setItem('sortValue', value);
+    this.setGoTopFlag(false); // для того чтоб при изменении параметров поиска, список не спускался вниз, а оставался наверху
     this.sortValue = value;
   };
 
   setQuery = (query: string) => {
     this.query = query;
+    this.setGoTopFlag(false);
   };
 
   // сортировка по типу и бренду
   setSearchType = (type: string) => {
     sessionStorage.setItem('searchType', type);
+    this.setGoTopFlag(false);
     this.searchType = type;
   };
 
   setSearchBrand = (brand: string) => {
     sessionStorage.setItem('searchBrand', brand);
+    this.setGoTopFlag(false);
     this.searchBrand = brand;
   };
 }

@@ -16,7 +16,6 @@ class BasketStateService extends BasketState {
       const err = error as AxiosError;
       console.log(err.message);
       this.setError(err.message);
-      return false;
     } finally {
       this.setIsLoading(false);
     }
@@ -32,7 +31,6 @@ class BasketStateService extends BasketState {
       const err = error as AxiosError;
       console.log(err.message);
       this.setError(err.message);
-      return false;
     }
   };
 
@@ -46,7 +44,6 @@ class BasketStateService extends BasketState {
       const err = error as AxiosError;
       console.log(err.message);
       this.setError(err.message);
-      return false;
     }
   };
 }

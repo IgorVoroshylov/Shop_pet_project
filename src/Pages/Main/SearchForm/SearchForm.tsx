@@ -9,7 +9,7 @@ const Searchform: React.FC = () => {
   const { brands, types, getBrands, getTypes } = useStore('AppState');
   const {
     query,
-    sortType,
+    sortValue,
     searchType,
     searchBrand,
     setSortValue,
@@ -24,7 +24,7 @@ const Searchform: React.FC = () => {
   }, [getBrands, getTypes]);
 
   const resetSearch = () => {
-    setSortValue('');
+    setSortValue('id');
     setSearchType('');
     setSearchBrand('');
   };
@@ -43,7 +43,7 @@ const Searchform: React.FC = () => {
       <div className={css(SelectContainer)}>
         <select
           className={css(Select)}
-          value={sortType}
+          value={sortValue}
           onChange={(e) => setSortValue(e.target.value)}
         >
           <option value="id">отсортировать</option>

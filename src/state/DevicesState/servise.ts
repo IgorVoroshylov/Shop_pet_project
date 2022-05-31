@@ -1,6 +1,5 @@
 import DevicesState from './DevicesState';
 import axios, { AxiosError } from 'axios';
-import { reaction } from 'mobx';
 
 axios.defaults.baseURL = 'http://localhost:3500';
 
@@ -46,22 +45,23 @@ class DeviceStateService extends DevicesState {
       const err = error as AxiosError;
       console.log(err.message);
       this.setError(err.message);
-      return false;
     }
   };
 
-  GetItemsList = reaction(
-    () => this.sortValue || this.searchBrand || this.searchType || this.query,
-    () => {
-      this.getDevices(
-        this.searchType,
-        this.searchBrand,
-        this.sortValue,
-        this.query,
-      );
-    },
-    { fireImmediately: true }, //! remove this param, because we call getDevices without params, after maunting in main
-  );
+  // GetItemsList = reaction(
+  //   //! don`t work as needed
+  //   () => this.searchType || this.searchBrand || this.sortValue || this.query, //! receive only first value
+  //   (value) => {
+  //     console.log('reaction:', value);
+  //     this.getDevices(
+  //       this.searchType,
+  //       this.searchBrand,
+  //       this.sortValue,
+  //       this.query,
+  //     );
+  //   },
+  //   { fireImmediately: true },
+  // );
 }
 
 export default new DeviceStateService();

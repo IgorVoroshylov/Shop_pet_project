@@ -22,7 +22,7 @@ const ErrorPage = React.lazy(() => import('./Pages/404'));
 const App: React.FC = () => {
   const { isLoading, getUserInfo, user } = useStore('UserState');
   const { getBasketItemList } = useStore('BasketState');
-  const store = useStore('AppState');
+  const { themeFlag } = useStore('AppState');
   const { setSortValue, setSearchType, setSearchBrand } =
     useStore('DeviceState');
   //const [theme, setTheme] = useState<'light' | 'string'>('light');
@@ -49,7 +49,7 @@ const App: React.FC = () => {
     <BrowserRouter>
       <RendererProvider renderer={renderer}>
         {/* <ThemeContext.Provider value={{ theme, setTheme }}> */}
-        <ThemeProvider theme={appTheme[store.themeFlag]}>
+        <ThemeProvider theme={appTheme[themeFlag]}>
           <Routes>
             <Route path="/" element={<Layout />}>
               <Route index element={<Main />} />

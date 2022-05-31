@@ -23,22 +23,22 @@ const addNewItemSchema = yup.object().shape({
     .required('Count is a required field'),
   width: yup
     .number()
-    .typeError('Count must be a `number` type')
+    .typeError('Width must be a `number` type')
     .required('Width is a required field'),
   height: yup
     .number()
-    .typeError('Count must be a `number` type')
+    .typeError('Height must be a `number` type')
     .required('Height is a required field'),
   weight: yup
     .number()
-    .typeError('Count must be a `number` type')
-    .required('weight is a required field'),
+    .typeError('Weight must be a `number` type')
+    .required('Weight is a required field'),
   price: yup
     .number()
-    .typeError('Count must be a `number` type')
-    .required('weight is a required field'),
-  type: yup.string().required('Name is a required field'),
-  brand: yup.string().required('Name is a required field'),
+    .typeError('Price must be a `number` type')
+    .required('Price is a required field'),
+  type: yup.string().required('Type is a required field'),
+  brand: yup.string().required('Brand is a required field'),
   // type: yup
   //   .number()
   //   .typeError('type is a required field')

@@ -54,7 +54,7 @@ export const ResetButton = (theme: ThemeType) => ({
 });
 
 export const GoToTopButton = (theme: ThemeType) => ({
-  backgroundColor: 'grey lighten-4',
+  backgroundColor: 'grey lighten-1',
   transition: 'all 0.3s ease',
   borderRadius: '50%',
   position: 'fixed',
